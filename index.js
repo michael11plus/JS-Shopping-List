@@ -71,3 +71,52 @@ function markAsPurchased() {
         alert("Please enter the product name.");
     }
 }
+
+
+//initial console writeout
+/* 
+
+
+let shoppingList = [];
+
+function addProduct() {
+    let productName = document.getElementById("product-name").value;
+    let quantity = parseInt(document.getElementById("product-quantity").value);
+
+    if (productName && quantity > 0) {
+        shoppingList.push({ name: productName, quantity: quantity, purchased: false });
+        console.log(`Product added: ${productName}, Quantity: ${quantity}`);
+    } else {
+        console.log("Please enter a valid product name and quantity.");
+    }
+}
+
+function markAsPurchased() {
+    let productName = document.getElementById("product-name").value;
+
+    let product = shoppingList.find(item => item.name.toLowerCase() === productName.toLowerCase());
+    if (product) {
+        product.purchased = true;
+        console.log(`Product marked as purchased: ${productName}`);
+    } else {
+        console.log(`Product not found: ${productName}`);
+    }
+}
+
+function displayShoppingList() {
+    console.log("Unpurchased items:");
+    shoppingList.forEach(item => {
+        if (!item.purchased) {
+            console.log(`${item.name}: ${item.quantity}`);
+        }
+    });
+
+    console.log("Purchased items:");
+    shoppingList.forEach(item => {
+        if (item.purchased) {
+            console.log(`${item.name}: ${item.quantity}`);
+        }
+    });
+}
+
+*/

@@ -97,3 +97,14 @@ button:hover {
     border-radius: 4px;
     background-color: #fafafa;
 }
+
+@media (max-width: 375px) {
+    .buttons {
+        flex-direction: column; 
+    }
+
+    button {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+}
